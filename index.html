@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <link rel = 'stylesheet' href = "style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src= "https://cdn.plot.ly/plotly-3.0.1.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  </head>
+  <body>
+    <header class = "hero"> 
+        <div class = "heroText">
+            <h1> Control patient room environments </h1>
+            <p> Manage the Indoor Environmental Quality (IEQ) of your patient's rooms using SAMBA's world-first monitoring technology. </p>
+            <button onclick = "demo()"> See the Dashboard → </button>
+        </div>
+    </header>
+
+    <main>
+    <!-- SAMBA explanation  -->
+        <section class = "width80">  
+            <div class = "flex-row-tall">
+                <div class = "flex-content"> 
+                    <img src = "images/samba-withbg.jpg">
+                </div>
+                <div class = "flex-content"> 
+                    <h1> SAMBA: The Sentient Ambient Monitoring of Buildings in Australia </h1>
+                    <p> <strong> A World-First, Real-Time, and Low-Cost device that measures the Indoor Environmental Quality (IEQ). </strong> SAMBA can dynamically measure, monitor, and report IEQ parameters: allowing you to respond efficiently to any room environment issues. Perfect for the fast-paced, patient-first environments of healthcare facilities. </p>
+                </div>
+            </div>
+        </section>
+
+    <!-- measurements  -->
+        <section class = "measurements">
+            <div class = "width80">
+                <h1> What do we measure? </h1>
+                <div class = "flex-row">
+                    <div class = "variable"> 
+                        <img src="https://img.icons8.com/?size=100&id=UxvbhlHDl0iU&format=png&color=000000">
+                        <h2> Temperature </h2>
+                        <p>  Helping staff members to regulate the patient's room temperature- leading to happier patients, and a better work environment for staff! </p>
+                    </div>
+                    <div class = "variable"> 
+                        <img src="https://img.icons8.com/?size=100&id=nBxxj2r1YGsE&format=png&color=000000">
+                        <h2> Humidity </h2>
+                        <p>  Helping staff members to know the humidity of the patient's room so they can better manage the patients health, safety, and wellbeing. </p>
+                    </div>
+                    <div class = "variable"> 
+                        <img src="https://img.icons8.com/?size=100&id=S20j1f60ruYA&format=png&color=000000">
+                        <h2> Light </h2>
+                        <p>  Which helps staff to know about any light disturbances, particularly at night, so they help to manage the sleeping schedule of their patient. </p>
+                    </div>
+                    <div class = "variable"> 
+                        <img src="https://img.icons8.com/?size=100&id=KttWmZDF4OIw&format=png&color=000000">
+                        <h2> Sound </h2>
+                        <p>  Which alerts staff to any sound issues, helping them to reduce the amount of sound to manage the sleep and wellbeing of their patients. </p>
+                    </div>
+                    <div class = "variable"> 
+                        <img src="https://img.icons8.com/?size=100&id=si1rp6kD04Pt&format=png&color=000000">
+                        <h2> CO2 </h2>
+                        <p>  Helping staff members to maintain adequate ventelation of the patient's room, supporting their wellbeing and healing process! </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- application in healthcare -->   
+        <section class = "width80">
+            <div class = "flex-row">
+                <div class = "flex-content">
+                    <h1> The SAMBA in healthcare facilities </h1>
+                     <p> A good IEQ aids <strong> patient recovery, reduces stress levels, and promotes better overall care.</strong>  Our technology streamlines the IEQ management process for healthcare professionals → </p>
+                </div>
+                <div class = "flex-content">
+                    <img class = "stepImg" src = "images/pitch-img.svg">
+                </div>
+            </div>  
+            
+        </section>
+            
+    <!-- bottom -->
+        <section class = "pgBottom"> 
+            <div class = "btmContainer"> 
+                <h1> Try it out now! </h1>
+                <p> See the SAMBA in action </p>
+                <button onclick = "demo()"> Go → </button>
+            </div>
+            <img src = "images/samba.png">
+            <div class = "btmBg"> </div>
+        </section>   
+      
+    </main>
+
+    <!-- scripts for button clicks -->
+    <script>
+        function demo(){
+            window.location.href = "chart.html"
+        }
+    </script>
+
+  </body>
+</html>

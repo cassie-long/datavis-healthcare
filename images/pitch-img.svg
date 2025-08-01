@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 665.5 274.5">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #605cdb;
+      }
+
+      .st1 {
+        font-family: Arial-ItalicMT, Arial;
+      }
+
+      .st1, .st2, .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st1, .st3, .st6, .st5 {
+        fill: #262684;
+      }
+
+      .st1, .st3, .st5 {
+        font-size: 20.8px;
+      }
+
+      .st1, .st5 {
+        font-style: italic;
+      }
+
+      .st7 {
+        fill: #4542b3;
+      }
+
+      .st3, .st4 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st3, .st4, .st5 {
+        font-weight: 700;
+      }
+
+      .st4 {
+        fill: #ebf3fa;
+        font-size: 34.7px;
+      }
+
+      .st5 {
+        font-family: Arial-BoldItalicMT, Arial;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="st6" cx="129" cy="36.3" r="34.4"/>
+    <g class="st2">
+      <text class="st4" transform="translate(118.1 47.9)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+  </g>
+  <g>
+    <circle class="st7" cx="188.1" cy="137.2" r="34.4"/>
+    <g class="st2">
+      <text class="st4" transform="translate(178.4 148.9)"><tspan x="0" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="st2">
+    <text class="st1" transform="translate(190.7 28.7)"><tspan x="0" y="0">See </tspan></text>
+    <text class="st5" transform="translate(233.6 28.7)"><tspan x="0" y="0">real-time</tspan></text>
+    <text class="st1" transform="translate(320.5 28.7)"><tspan x="0" y="0" xml:space="preserve"> IEQ monitoring of </tspan></text>
+    <text class="st1" transform="translate(190.7 53.7)"><tspan x="0" y="0">every room in </tspan></text>
+    <text class="st5" transform="translate(322.7 53.7)"><tspan x="0" y="0">one place</tspan></text>
+  </g>
+  <g>
+    <circle class="st0" cx="129" cy="238.2" r="34.4"/>
+    <g class="st2">
+      <text class="st4" transform="translate(119.3 249.8)"><tspan x="0" y="0">3</tspan></text>
+    </g>
+  </g>
+  <g class="st2">
+    <text class="st1" transform="translate(252.7 132.2)"><tspan x="0" y="0">Use our dashboard to </tspan></text>
+    <text class="st5" transform="translate(458.9 132.2)"><tspan x="0" y="0">quickly </tspan></text>
+    <text class="st1" transform="translate(536.5 132.2)"><tspan x="0" y="0">identify </tspan></text>
+    <text class="st1" transform="translate(252.7 157.2)"><tspan x="0" y="0">what</tspan></text>
+    <text class="st1" transform="translate(296.7 157.2)"><tspan x="0" y="0">’</tspan></text>
+    <text class="st1" transform="translate(301 157.2)"><tspan x="0" y="0" xml:space="preserve">s declining the overall IEQ  </tspan></text>
+  </g>
+  <g class="st2">
+    <text class="st1" transform="translate(190.7 235.7)"><tspan x="0" y="0">Adjust the room to improve IEQ and </tspan></text>
+    <text class="st1" transform="translate(190.7 260.7)"><tspan x="0" y="0">see </tspan></text>
+    <text class="st5" transform="translate(230.1 260.7)"><tspan x="0" y="0">happier</tspan></text>
+    <text class="st3" transform="translate(305.4 260.7)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st1" transform="translate(311.2 260.7)"><tspan x="0" y="0">patients</tspan></text>
+  </g>
+</svg>

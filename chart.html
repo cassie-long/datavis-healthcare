@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel = 'stylesheet' href = "style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src= "https://cdn.plot.ly/plotly-3.0.1.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  </head>
+
+  <body>
+    <header class = "chartHero"> 
+        <div class = "chartHeroText"> Ward Monitoring <br> </div> 
+    </header>
+    <div class = "bottomRight">
+      <button onclick="back()"> Back to Demo Page </button>
+      <p id = "time"> </p>
+    </div>
+    
+    <article class = "vertCenter">
+      <section class = gridContainer>
+        <!-- top left -->
+        <h1 class = "mapTitle"> Ward 1 Map </h1>
+        <!-- bottom left -->
+        <div class = wardMap>
+          <div class = "ward">
+            <div id = "room1"> <p> Room 1 </p> <p id="room1Rating"> </p> </div>
+            <div id = "room2"> <p> Room 2 </p> <p id="room2Rating"> </p> </div>
+          </div>
+        </div>
+
+        <!-- top right -->
+        <h1 class = "chartTitle"> <span id = "roomNo"> </span> </h1>
+        
+        <!-- bottom right -->
+        <div id = "chartContainer">
+          <div id = "chart"> </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- script for button click-->
+    <script>
+        function back(){
+            window.location.href = "index.html"
+        }
+    </script>
+    <script src= "script.js"> </script> 
+  </body>   
+</html>
